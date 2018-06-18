@@ -1,8 +1,8 @@
 [
     {
         "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "Nirvana",
-        "title": "Nevermind",
+        "artist": "WillMind",
+        "title": "Confused",
         "releaseYear": "1991",
         "genre": "Rock"
     },
