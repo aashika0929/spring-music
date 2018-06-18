@@ -2,7 +2,7 @@
     {
         "_class": "org.cloudfoundry.samples.music.domain.Album",
         "artist": "WillMind",
-        "title": "Confused",
+        "title": "ConfusedNow",
         "releaseYear": "1991",
         "genre": "Rock"
     },
