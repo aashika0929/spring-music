@@ -2,7 +2,9 @@
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">Cloud Prime Music Application<span class="glyphicon glyphicon-music"></span></a>
+                <a class="navbar-brand" href="#">Cloud Prime Music App
+                    <span class="glyphicon glyphicon-music"></span>
+                </a>
                 <ul class="navbar-nav">
                     <!--<li></li>-->
                 </ul>
@@ -14,8 +16,14 @@
                         <span class="glyphicon glyphicon-info-sign icon-white"></span>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a><strong>Profiles:</strong> {{info.profiles.join()}}</a></li>
-                        <li><a><strong>Services:</strong> {{info.services.join()}}</a></li>
+                        <li>
+                            <a>
+                                <strong>Profiles:</strong> {{info.profiles.join()}}</a>
+                        </li>
+                        <li>
+                            <a>
+                                <strong>Services:</strong> {{info.services.join()}}</a>
+                        </li>
                     </ul>
                 </li>
             </ul>
